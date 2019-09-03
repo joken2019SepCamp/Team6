@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <title>講習会資料まとめ</title>
+</head>
+<body>
+    <h1>講習会資料まとめ</h1>
+
+    <div style="border: 1px solid #000; padding: 10px;">
+        <!-- 折りたたみ展開ボタン -->
+        <div onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
+            <a style="cursor:pointer;">▼ 2019年度</a>
+        </div>
+
+        <!--// 折りたたみ展開ボタン -->
+        <!-- ここから先を折りたたむ -->
+        <div id="menu1" style="display:none;clear:both;">
+            4月<br />
+            5月<br />
+            6月<br />
+            7月<br />
+            8月<br />
+            9月<br />
+            10月<br />
+            11月<br />
+            12月<br />
+            1月<br />
+            2月<br />
+            3月
+            <!--この部分が折りたたまれ、展開ボタンをクリックすることで展開します。-->
+
+        </div>
+        <!--// ここまでを折りたたむ -->
+    </div>
+</body>
+</html>
