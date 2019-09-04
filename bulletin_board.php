@@ -21,18 +21,18 @@ fclose($fp);
 
     <body>
         <!-- 共通のフレーム -->
-        <h1>掲示板 -本の貸し借り-</h1> 
-        <div id="side" class="cp_navi">
-                <div id="cp_sidenav" class="sidenav">
-                    <a href="#" id="home">Home</a>
-                    <a href="#" id="news">News</a>
-                    <a href="#" id="contact">Contact</a>
-                    <a href="#" id="about">About</a>
-                </div>
+        <h1>掲示板 -技術書等の購入依頼-</h1> 
+        <div id="side">
+                <ul class="sidenav">
+                        <li><a class="active" href="index.html">ホーム</a></li>
+                        <li><a href="">部室にある参考書</a></li>
+                        <li><a href="#contact">参考書のリクエスト</a></li>
+                        <li><a href="">講習会資料</a></li>
+                </ul>
         </div>
         <!--end-->
 
-        <div id="main" class="skyblue">
+        <div id="main" class="modan">
                 <section>
                         <h2>新規投稿</h2>
                         <form action="" method="post">
@@ -41,8 +41,9 @@ fclose($fp);
                             <button type="submit">投稿</button>
                         </form>
                     </section>
-                    <section class="toukou">
+                    <section class="submit">
                         <h2>投稿一覧</h2>
+
                         <?php if (!empty($rows)): ?>
                             <ul>
                             <?php foreach ($rows as $row): ?>
