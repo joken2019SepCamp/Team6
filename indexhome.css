@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* 背景の設定 */
+body {
+	background-image: url("image/img003.png");
+	background-attachment:
+	fixed;
+}
+
+header{
+    max-width: 30%;
+    background-color;
+    margin: 0 auto;
+}
+
+.lead {
+	color: floralwhite;
+	line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+
+footer {
+    clear:both;
+    max-width: 130%;
+    height:50px;
+    text-align:center;
+    font-size:0.85em;
+    background-image: url("image/img104.png");
+    padding-top:30px;
+    display:block; 
+}
