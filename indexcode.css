@@ -15,17 +15,10 @@ header{
 
 
 .lead{
-color: gold;
-font-size: 1.4rem;
-margin: auto 30px;
-
+color: black;
+padding: 5px;
 }
 
-.lead1{ 
-    color: black;
-    font-size: 1.0rem;
-    margin: 5px 30px;
-    }
 
 
 .div {
