@@ -27,6 +27,11 @@ margin: auto 30px;
     margin: 5px 30px;
     }
 
+.lead2{
+    font-family:"HGP行書体";
+    color:gold;
+    font-size: 3.0rem;
+    }
 
 .div {
     background: #0bd;
@@ -68,7 +73,9 @@ margin-bottom: 40px;
     text-align: center;
 }
 
-
+#釣られたなポッター     .footer-tatle {
+    text-align: center;
+}
 footer {
 background-image: url(image/img104.png);
 text-align: center;
