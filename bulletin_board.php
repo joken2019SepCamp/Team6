@@ -1,3 +1,15 @@
+<?php
+$fp = fopen('data.csv', 'a+b');
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    fputcsv($fp, [$_POST['name'], $_POST['comment']]);
+    rewind($fp);
+}
+while ($row = fgetcsv($fp)) {
+    $rows[] = $row;
+}
+fclose($fp);
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
     <head>
@@ -29,7 +41,15 @@
                     </section>
                     <section class="toukou">
                         <h2>投稿一覧</h2>
+                        <?php if (!empty($rows)): ?>
+                            <ul>
+                            <?php foreach ($rows as $row): ?>
+                            <li><?=$row[1]?> (<?=$row[0]?>)</li>
+                            <?php endforeach; ?>
+                            </ul>
+                        <?php else: ?>
                         <p>投稿はまだありません</p>
+                        <?php endif; ?>
                     </section>
         </div>
     </body>

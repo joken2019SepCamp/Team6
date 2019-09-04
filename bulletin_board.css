@@ -1,71 +1,20 @@
-@charset "UTF-8";
-
-h1 {
-  color: #364e96;/*文字色*/
-  border: solid 3px #364e96;/*線色*/
-  padding: 0.5em;/*文字周りの余白*/
-  border-radius: 0.5em;/*角丸*/
+body{
+    text-align:center;
+    font-family: Quicksand, 游ゴシック体, YuGothic, 'ヒラギノ角ゴシック Pro',メイリオ, Meiryo,'ＭＳ Ｐゴシック', sans-serif;
 }
 
-.skyblue{
-    background-color: #42ddf5;
+.honbun {
+    margin-top: 30px;
+    margin-bottom: 12px;
 }
 
-/*二段組み--------------------------------------------------*/
-#main {
-    width:1000px; /*メインの横幅*/
-    float:right; /*右に寄せる（他の要素を左に回り込ませる)*/
-    margin: 0px; 
-    
-} 
-#side {
-    width:160px; /*サイドの横幅*/
-    float:left; /*左に寄せる*/
-    margin: 0px; 
-    border-right: thick dashed #42f5c5;
+.label{
+    vertical-align: top;
+    margin-right: 5px;
 }
-/*----------------------------------------------------------*/
 
-/*メニューバーの表示----------------------*/
-*, *:before, *:after {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+.toukou{
+    border-top: 1px solid;
+    margin: 40px auto;
+    max-width: 975px;
 }
-.cp_navi {
-	position: relative;
-	overflow: hidden;
-	width: 360px;
-	height:360px;
-}
-.cp_navi #cp_sidenav a {
-	font-size: 20px;
-	position: absolute;
-	left: -95px;
-	width: 110px;
-	height: 54px;
-	padding: 12px 15px;
-	transition: 0.3s;
-	text-decoration: none;
-	color: #ffffff;
-	border-radius: 0 5px 5px 0;
-}
-.cp_navi #cp_sidenav a:hover {
-	left: -10px;
-}
-.cp_navi #home {
-	top: 20px;
-	background-color: #da3c41;
-}
-.cp_navi #news {
-	top: 80px;
-	background-color: #1b2538;
-}
-.cp_navi #contact {
-	top: 140px;
-	background-color: #2e9b72;
-}
-.cp_navi #about {
-	top: 200px;
-	background-color: #a62e7a;
-}
-/*---------------------------------------*/
