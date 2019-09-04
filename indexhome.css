@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/* 背景の設定 */
+body {
+	background-image: url("image/img003.png");
+	background-attachment:
+	fixed;
+}
+
+header{
+    max-width: 30%;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+
+.lead{
+color: black;
+padding: 5px;
+}
+
+
+
+.div {
+    background: #0bd;
+    margin: 30px 0 0 30px;
+}
+
+.item{
+        background: #0bd;
+        color: #fff;
+        margin: 80px;
+        padding: 80px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-auto-rows: 150px 150px;
+}
+
+.button{
+    font-size: 1.08rem;
+    background: #0bd;
+    color: #0bd;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background: #0090aa;
+}
+
+#2019株式会社荒野のテーブル {
+background-image: url(image/img104.png);
+height: 270px;
+margin-bottom: 40px;
+}
+
+#2019株式会社荒野のテーブル    .footer-tatle {
+    text-align: center;
+}
+
+
+footer {
+background-image: url(image/img104.png);
+text-align: center;
+margin: 80px 0 0 0;
+padding: 26px 0;
+
+}
+footer p {
+color: #fff;
+font-size: 0.875rem;
+}
