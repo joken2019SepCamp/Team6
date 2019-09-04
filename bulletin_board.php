@@ -20,6 +20,7 @@ fclose($fp);
     </head>
 
     <body>
+        <!-- 共通のフレーム -->
         <h1>掲示板 -本の貸し借り-</h1> 
         <div id="side" class="cp_navi">
                 <div id="cp_sidenav" class="sidenav">
@@ -29,6 +30,7 @@ fclose($fp);
                     <a href="#" id="about">About</a>
                 </div>
         </div>
+        <!--end-->
 
         <div id="main" class="skyblue">
                 <section>

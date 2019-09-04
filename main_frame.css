@@ -8,7 +8,7 @@ h1 {
 }
 
 .skyblue{
-    background-color: #42ddf5;
+    background-color: #7dffe5;
 }
 
 /*二段組み--------------------------------------------------*/
@@ -54,18 +54,18 @@ h1 {
 }
 .cp_navi #home {
 	top: 20px;
-	background-color: #da3c41;
+	background-color: #f5500e;
 }
 .cp_navi #news {
 	top: 80px;
-	background-color: #1b2538;
+	background-color: #0e3f9b;
 }
 .cp_navi #contact {
 	top: 140px;
-	background-color: #2e9b72;
+	background-color: #1a815a;
 }
 .cp_navi #about {
 	top: 200px;
-	background-color: #a62e7a;
+	background-color: #800854;
 }
 /*---------------------------------------*/
