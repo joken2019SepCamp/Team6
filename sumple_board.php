@@ -1,5 +1,5 @@
 <?php
-$_GETdsn = 'mysql:dbname=sample;host=localhost;charset=utf8';
+$dsn = 'mysql:dbname=bulletin_board;host=localhost;charset=utf8';   //接続先のデータベース名、ホストを指定
 
 $user ='root';
 $password = '';
