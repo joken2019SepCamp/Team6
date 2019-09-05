@@ -9,6 +9,9 @@ h1 {
   padding: 0.5em;/*文字周りの余白*/
   border-radius: 0.5em;/*角丸*/
 }
+.skyblue{
+	background-color: #b6f3e3;
+}
 
 /*二段組み--------------------------------------------------*/
 #main {
